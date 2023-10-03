@@ -10,7 +10,7 @@ jobs:
   test:
     env:
       MONGODB_CLUSTER_ADDRESS: cluster0.sbkg7uc.mongodb.net
-      MONGODB_USERNAME: mohammadcasim 
+      MONGODB_USERNAME: ${{ Secrets.DB_USERNAME }}
       MONGODB_PASSWORD: Prosvalley
       PORT: 8079
     #environment: testing
