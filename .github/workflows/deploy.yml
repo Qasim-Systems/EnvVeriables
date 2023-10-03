@@ -13,7 +13,7 @@ jobs:
       MONGODB_USERNAME: mohammadcasim 
       MONGODB_PASSWORD: Prosvalley
       PORT: 8079
-    environment: testing
+    #environment: testing
     runs-on: ubuntu-latest
     steps:
       - name: Get Code
